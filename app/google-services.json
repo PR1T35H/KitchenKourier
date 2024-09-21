@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517125965455",
+    "project_id": "kitchenkourier-d9758",
+    "storage_bucket": "kitchenkourier-d9758.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517125965455:android:cf4e39add924e9624352fa",
+        "android_client_info": {
+          "package_name": "com.example.kitchenkourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517125965455-rk2dep2n1gsc7k04a6m2pa8omergoijo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV9LWUZLCnwzWCWl1I9Kv-ZCtGPkIdbWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517125965455-rk2dep2n1gsc7k04a6m2pa8omergoijo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

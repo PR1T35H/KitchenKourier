@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KitchenKourier"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.DeliveryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.OrderPlacedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.TakeAwayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.IntroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.OffersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SupportFeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SupportQueryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SupportActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Login_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.NonVegKitchenMenuDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.NonVegKitchenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.HotspotMenuDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.HotspotActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.QuenchMenuDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.QuenchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MenuDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.KathiHouseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.CartListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ShowDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SecondIntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
